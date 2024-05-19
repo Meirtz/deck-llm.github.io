@@ -134,4 +134,28 @@ body {
 }
 
 
+.hero {
+  display: flex;
+  align-items: center;
+}
 
+.hero-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-logo img {
+  width: 100px; /* 设置合适的宽度 */
+  height: 100px; /* 设置合适的高度，保持1:1比例 */
+  border-radius: 10%; /* 设置圆角 */
+}
+
+.hero-body .columns {
+  display: flex;
+  align-items: center;
+}
+
+.hero-body .column:not(.is-narrow) {
+  flex: 1;
+}
